@@ -21,8 +21,6 @@ width: 100%;
   padding-top: 10px;
   background-color: rgb(0, 0, 0, 0.1);
   text-align: center;
-  padding-bottom: 20px;
-  margin-bottom: 40px;
 
 }
 
@@ -71,9 +69,8 @@ width: 100%;
 
 #tribute-info{
 
-  color: rgb(0, 0, 0, 0.8);
   display: block;
-  width: 100%;
+  width: 60%;
   position: relative;
   text-align: center;
   list-style-position: inside;
@@ -81,17 +78,11 @@ width: 100%;
  
 
 }
-#tribute-info h2{
-  padding-top: 30px;
-}
-#tribute-info ul{
 
-  font-family: Helvetica;
-  font-size: 18px;
-  display: block;
-  padding-top: 25px;
+#tribute-info ul{
+display: block;
   padding-right: 10px;;
-  width:590px;
+  width:800px;
   margin: auto;
   text-align: justify;
 
@@ -107,9 +98,3 @@ width: 100%;
   margin-bottom: 25px;
 }
 
-#tribute-link{
-  text-decoration: none;
-  color: black;
-  font-size: 30px;
-  font-family: Calibri;
-}
