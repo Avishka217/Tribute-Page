@@ -1,7 +1,18 @@
 const myName = document.getElementById('name');
 const myEmail = document.getElementById('email');
 const myForm = document.querySelector('form');
-const msg = document.querySelector('.msg');
+
+//add msg to html
+var msg = document.createElement('div');
+var div = document.querySelector('.form-group');
+msg.id = 'message';
+myForm.insertBefore(msg, div);
+
+
+
+
+
+//form action
 myForm.addEventListener("submit", onSubmit);
 
 function onSubmit(e) {
