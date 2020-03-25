@@ -18,7 +18,7 @@ function onSubmit(e) {
         msg.innerHTML = "Please enter your name and email"
         returnTop();
         setTimeout(() => msg.remove(), 2500);
-        myForm.reset();
+        myForm.trigger('reset');
     }
     else {
         myName.value = '';

@@ -1,0 +1,22 @@
+{
+  "name": "tribute",
+  "version": "1.0.0",
+  "description": "Responsive Web Design Projects - Building a Tribute Page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nisan-abeywickrama/Tribute-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nisan-abeywickrama/Tribute-Page/issues"
+  },
+  "homepage": "https://github.com/nisan-abeywickrama/Tribute-Page#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
